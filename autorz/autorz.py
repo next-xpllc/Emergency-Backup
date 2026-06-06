@@ -695,4 +695,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
     # Multiple workers = multiple processes handling requests
     # Each process runs async tasks independently
-    uvicorn.run(app, host="0.0.0.0", port=port, workers=8)
+    uvicorn.run(app, host="0.0.0.0", port=port)
