@@ -1,0 +1,18 @@
+# Stripe Gateway (app.py, st.py)
+flask>=3.0
+requests>=2.31
+urllib3>=2.1
+
+# Chase CVV Gateway (cvv.py)
+tls_client
+
+# Chase ICCSafe Gateway (ca.py)
+curl_cffi>=0.7
+faker>=25.0
+
+# Razorpay Gateway (autorz/autorz.py — MAIN API)
+fastapi>=0.115
+uvicorn[standard]>=0.32
+httpx>=0.28
+fake-useragent>=1.5
+pydantic>=2.0

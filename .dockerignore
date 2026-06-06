@@ -1,0 +1,13 @@
+.git
+.gitignore
+Dockerfile
+.env
+.env.example
+__pycache__
+*.pyc
+debug_*
+response.html
+*.log
+.venv
+venv
+railway.toml

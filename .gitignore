@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+debug_*.html
+debug_*.json
+response.html
+*.log
+.venv/
+venv/
